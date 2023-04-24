@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Heebo", sans-serif; 
+    background-color: var(--main-theme-bg);
+    padding: 0.5rem 5rem;
+}
+
+header nav ul{
+    display: flex;
+    float: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+.red{
+    color: #ff0000;
+}
+
+a{
+    text-decoration: none;
+    color: #131313;
+}
+
+li{
+    list-style: none;
+}
+
+.btn1{
+    background: #00008b;
+    border-radius: 35px;
+    width: 60px;
+    color: #fff;
+    margin-top: 1.3rem;
+}
+
+.dashboarddesign{
+    display: flex;
+    gap: 1rem;
+}
+
+.portraits{
+    display: flex;
+    gap: 1rem;
+}
+
+.typography{
+    display: flex;
+    gap: 1rem;
+}
+
+.works{
+    margin-top: 5rem;
+}
+
+.designpic{
+    margin-top: 1.5rem;
+}
+
+.portraitpic{
+    margin-top: 3.5rem;
+}
+
+.typopic{
+    margin-bottom: 1.5;   
+}
+
+.design{
+    margin-top: 1.7rem;
+}
+
+.vibrantpotrait{
+margin-top: 4rem;
+}
+
+section div:nth-of-type(3){
+margin-top: 5rem;
+}
+
+section div:nth-of-type(1) p:nth-child(4){
+margin-top: 2rem;
+}
+
+
+
