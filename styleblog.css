@@ -56,32 +56,32 @@ footer{
 }
 
 footer i.bxl-facebook-square{
+    margin-left: 10rem;
     position: relative;
-    top: 7rem;
-    left: 26rem;
-    font-size:35px;
+    top: 6.2rem;
+    font-size: 30px;
 }
 
 footer i.bxl-instagram{
+    margin-left: 13rem;
     position: relative;
-    left: 27rem;
-    top: 7rem;
-    font-size:35px
+    top: 4.2rem;
+    font-size: 30px;
 }
 
 footer i.bxl-twitter{
+    margin-left: 16rem;
     position: relative;
-    left: 28rem;
-    top: 7rem;
-    font-size: 35px;
-}
+    top: 2.2rem;
+    font-size: 30px;
+}   
 
 footer i.bxl-linkedin{
-    position: relative;
-    left: 29rem;
-    font-size: 35px;
-    top: 7rem;
+    margin-left: 19rem;
+    font-size: 30px;
 }
+
+
 
 
 @media screen and (max-width: 700px){
@@ -91,26 +91,31 @@ footer i.bxl-linkedin{
 
     footer{
         height: 15vh;
-    }
-
-    footer i.bxl-facebook-square{
-    position: relative;
-    left: 3rem;
-    }
-
-    footer i.bxl-instagram{
-        position: relative;
-        left: 4rem;
-    }
-
-    footer i.bxl-twitter{
-        position: relative;
-        left: 5rem;
-    }
-
-    footer i.bxl-linkedin{
-        position: relative;
-        left: 6rem;
+        background: #fff; 
      }
 
-}
+     footer i.bxl-facebook-square{
+        margin-left: 5rem;
+        
+     }
+
+     footer i.bxl-instagram{
+        margin-left: 8rem;
+     }
+    
+     footer i.bxl-twitter{
+       margin-left: 11rem;
+       
+     }
+
+     footer i.bxl-linkedin{
+        margin-left: 14rem;
+        margin-top: 3rem;
+        position: relative;
+        bottom: 3rem;
+     }   
+      }
+ 
+    
+
+

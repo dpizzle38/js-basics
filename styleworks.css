@@ -69,12 +69,12 @@ li{
     margin-bottom: 1.5;   
 }
 
-.design{
+section div:nth-of-type(1) div:nth-child(2) h2{
     margin-top: 1.7rem;
 }
 
-.vibrantpotrait{
-margin-top: 4rem;
+section div:nth-of-type(2) div:nth-child(2) h2{
+    margin-top: 4rem;
 }
 
 section div:nth-of-type(3){
@@ -85,5 +85,161 @@ section div:nth-of-type(1) p:nth-child(4){
 margin-top: 2rem;
 }
 
+footer{
+    height: 25vh;
+    width: 25vh;
+    background: #fff;
+}
 
+footer i.bxl-facebook-square{
+    margin-left: 25rem;
+    margin-top: 10rem;
+    font-size: 35px;
+   }
+   
+   footer i.bxl-instagram{
+    margin-left: 29rem;   
+    position: relative;
+    bottom: 2.2rem;
+    font-size: 35px;
+   }
+   
+   footer i.bxl-twitter{
+   margin-left: 33rem;
+   position: relative;
+   bottom: 4.5rem;
+   font-size: 35px;
+   }
+   
+   footer i.bxl-linkedin{
+       margin-left: 37rem;
+       position: relative;
+       bottom: 7rem;
+       font-size: 35px;
+    }
+   
+   
+
+   @media screen and (max-width: 700px){
+    .list{
+        display:none;
+    }
+    .dashboarddesign{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div:nth-of-type(1) img:nth-child(1){
+        height: 200px;
+        width: 250px;
+    }
+
+    section div:nth-of-type(1) div:nth-child(2) h2{
+        position: relative;
+        bottom: 1rem;
+    }
+    
+    section div:nth-of-type(1) div:nth-child(2) button{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    section div:nth-of-type(1) div:nth-child(2) span{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    section div:nth-of-type(1) div:nth-child(2) p{
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .portraits{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div:nth-of-type(2) img:nth-child(1){
+        height: 200px;
+        width: 250px;
+        position: relative;
+        bottom: 2rem;
+    }
+
+    section div:nth-of-type(2) div:nth-child(2) h2{
+        position: relative;
+        bottom: 5rem;
+    }
+
+    section div:nth-of-type(2) div:nth-child(2) button.btn1{
+        position: relative;
+        bottom: 5rem;
+    }
+
+    section div:nth-of-type(2) div:nth-child(2) span{
+        position: relative;
+        bottom: 5rem;
+    }
+
+    section div:nth-of-type(2) div:nth-child(2) p{
+        position: relative;
+        bottom: 6rem;
+    }
+
+    .typography{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div:nth-of-type(3) img {
+        height: 200px;
+        width: 250px;
+        position: relative;
+        bottom: 8rem;
+    }
+
+    section div:nth-of-type(3) div:nth-child(2) h2{
+        position: relative;
+        bottom: 7rem;
+    }
+
+    section div:nth-of-type(3) div:nth-child(2) button.btn1{
+        position: relative;
+        bottom: 7rem;
+    }
+
+    section div:nth-of-type(3) div:nth-child(2) span{
+        position: relative;
+        bottom: 7rem;
+    }
+
+    section div:nth-of-type(3) div:nth-child(2) p{
+        position: relative;
+        bottom: 8rem;
+    }
+
+    footer{
+        height: 15vh
+    }
+
+    footer i:nth-of-type(1){
+    margin: auto;
+    }
+
+    footer i:nth-of-type(2){
+     position: relative;
+     right: 25rem;   
+    }
+
+    footer i:nth-of-type(3){
+     position: relative;
+     right: 24.5rem;
+    }
+
+    footer i:nth-of-type(4){
+     position: relative;
+     right: 23.5rem;
+    }
+
+}   
 
