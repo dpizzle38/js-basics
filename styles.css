@@ -199,6 +199,8 @@ footer i.bxl-twitter{
 footer i.bxl-linkedin{
     position: relative;
     left: 29rem;
+    font-size: 35px;
+    top: 7rem;
 }
 
 .btn1{
