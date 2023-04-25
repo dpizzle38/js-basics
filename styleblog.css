@@ -49,8 +49,68 @@ section div:nth-of-type(4){
     margin-top: 1rem;
 }
 
+footer{
+    height: 25vh;
+    width: 25vh;
+    background: #fff;
+}
+
+footer i.bxl-facebook-square{
+    position: relative;
+    top: 7rem;
+    left: 26rem;
+    font-size:35px;
+}
+
+footer i.bxl-instagram{
+    position: relative;
+    left: 27rem;
+    top: 7rem;
+    font-size:35px
+}
+
+footer i.bxl-twitter{
+    position: relative;
+    left: 28rem;
+    top: 7rem;
+    font-size: 35px;
+}
+
+footer i.bxl-linkedin{
+    position: relative;
+    left: 29rem;
+    font-size: 35px;
+    top: 7rem;
+}
+
+
 @media screen and (max-width: 700px){
     .navlis{
         display: none;
     }
+
+    footer{
+        height: 15vh;
+    }
+
+    footer i.bxl-facebook-square{
+    position: relative;
+    left: 3rem;
+    }
+
+    footer i.bxl-instagram{
+        position: relative;
+        left: 4rem;
+    }
+
+    footer i.bxl-twitter{
+        position: relative;
+        left: 5rem;
+    }
+
+    footer i.bxl-linkedin{
+        position: relative;
+        left: 6rem;
+     }
+
 }
